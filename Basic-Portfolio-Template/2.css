@@ -1,0 +1,62 @@
+html, body, div {
+    margin: 0 auto;
+    padding: 0;
+    border: 0 none;
+    color: aliceblue;
+    font-family: cursive;
+}
+
+#nav {
+    width: 1285px;
+    height: 120px;
+    background-color: #333;
+    list-style-type: none;
+    margin: 20px 20px;
+}
+
+#nav p {
+    text-align: left;
+    line-height: 120px;
+}
+#nav li {
+    float: left;
+    line-height: 120px;
+    padding-right: 100px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+#content {
+    padding: 20px;
+    width: 985px;
+    margin: 20px 20px;
+    background-color: #2196F3;
+    float: left;
+}
+
+#sidebar {
+    width: 200px;
+    float: right;
+    padding: 20px;
+    background-color: #009688;
+    margin: 20px 20px;
+    
+}
+
+#footer {
+    clear: both;
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+    margin: 30px 20px;
+    
+}
+
+.common-props {
+    border-radius: 3px;
+}
